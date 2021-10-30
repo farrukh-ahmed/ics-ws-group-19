@@ -1,7 +1,5 @@
 library(ggplot2)
-#data <- read.csv(file.choose())
-data <- read.csv('~/Personal Folder/Third Semester/ICS/Winter Semester/Task-1/census_2021_2001.csv')
-
+data <- read.csv('census_2021_2001.csv')
 data_2021 <- data[data$year == '2021',]
 data_2001 <- data[data$year == '2001',]
 
