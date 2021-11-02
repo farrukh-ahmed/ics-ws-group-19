@@ -14,6 +14,7 @@ print(transform(table(cut(data_2021$total.fertility.rate,fertility_breaks),dnn =
 
 life_expectancy_breaks = seq(50.0,95.0, by=5) 
 
+
 print(transform(table(cut(data_2021$life.expectancy.males,life_expectancy_breaks),dnn = "Life Expectancy Of Male Genders")))
 
 print(transform(table(cut(data_2021$life.expectancy.females,life_expectancy_breaks),dnn = "Life Expectancy Of Female Genders")))
